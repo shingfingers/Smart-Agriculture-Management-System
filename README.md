@@ -49,12 +49,13 @@
 
 ```text
 farm
-├── farm_common        # 后端公共模块（通用工具、统一返回、异常处理等）
-├── farm_system        # 后端系统管理模块（用户/权限/日志/字典）
-├── farm_warehousing   # 后端仓储业务模块
-├── farm_plant         # 后端种植业务模块
-├── farm_main          # 后端启动聚合模块（统一启动入口）
-├── farm-ui            # 前端管理端（Vue3 + Vite + TypeScript）
+├── .idea              # IntelliJ IDEA 的工程配置目录
+├── farm-ui            # 前端项目目录（Vue3 + Vite）
+├── farm_common        # 后端公共模块
+├── farm_main          # 后端启动聚合模块
+├── farm_plant         # 后端"种植业务"模块
+├── farm_system        # 后端"系统管理"模块
+├── farm_warehousing   # 后端"仓储业务"模块
 └── pom.xml            # Maven 父工程配置，管理多模块依赖版本
 ```
 
@@ -68,7 +69,7 @@ farm
 
 ### 环境要求
 
-- JDK 24
+- JDK 21
 - Maven 3.8+
 - MySQL（默认库名：`baizhanfarm`）
 - Redis（默认：`localhost:6379`）
@@ -118,5 +119,26 @@ npm run build
 2. 启动后端（`farm_main`，端口 `8080`）。
 3. 启动前端（`farm-ui`，端口 `3000`）。
 4. 通过浏览器访问前端地址进行业务联调。
+
 登录注册界面：
+
 <img width="1904" height="935" alt="5d371bfa5f5b5cdc51a02b62d8940c8d" src="https://github.com/user-attachments/assets/81c619da-c822-4635-b837-adaf471968aa" />
+主界面：
+<img width="1889" height="937" alt="3c7df8b074e1d11b13aa6267c1c0bdea" src="https://github.com/user-attachments/assets/48c18de2-e29f-4e11-bc6e-9d73855fa37b" />
+修改个人资料：
+<img width="1898" height="916" alt="image" src="https://github.com/user-attachments/assets/26ea3568-2dfd-4483-afe3-3e8e78a42749" />
+库存管理：
+<img width="1896" height="856" alt="image" src="https://github.com/user-attachments/assets/35d6b0f7-1338-4b80-961e-49bf0eb73f4f" />
+<img width="1895" height="913" alt="9954f4d646479e40bfda20f37c86058f" src="https://github.com/user-attachments/assets/f5c5132e-4b3e-4c94-934e-c11027c55e9f" />
+<img width="1894" height="900" alt="image" src="https://github.com/user-attachments/assets/f35436d1-a2e1-4bc3-ac39-63379d217400" />
+<img width="1899" height="911" alt="image" src="https://github.com/user-attachments/assets/5e4e2ea6-9a78-4334-bdd3-f240241a03ca" />
+种植管理：
+<img width="1892" height="914" alt="b8dabf6ba8b1d8a291d02804827aca33" src="https://github.com/user-attachments/assets/6c8c8d7d-a166-4302-a000-adc51467dc2b" />
+系统管理：
+<img width="1896" height="914" alt="image" src="https://github.com/user-attachments/assets/cf62c170-058a-4396-a558-a44b2180d04f" />
+<img width="1907" height="923" alt="image" src="https://github.com/user-attachments/assets/ccd2d8ee-a01a-49e1-b94e-173fc08a5b1d" />
+<img width="1900" height="933" alt="image" src="https://github.com/user-attachments/assets/7d93221a-a52a-4d38-86ae-f2576dfd76e7" />
+
+
+
+
