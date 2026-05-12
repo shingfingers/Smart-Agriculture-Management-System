@@ -62,7 +62,7 @@ farm
 
 ### 启动入口
 
-- 启动类：`com.itbaizhan.farm_main.FarmMainApplication`
+- 启动类：`com.itwork.farm_main.FarmMainApplication`
 - 配置文件：`farm_main/src/main/resources/application.yml`
 - 默认端口：`8080`
 
@@ -70,7 +70,7 @@ farm
 
 - JDK 24
 - Maven 3.8+
-- MySQL（默认库名：`farm`）
+- MySQL（默认库名：`workfarm`）
 - Redis（默认：`localhost:6379`）
 
 ### 后端本地启动
