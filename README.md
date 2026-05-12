@@ -70,7 +70,7 @@ farm
 
 - JDK 24
 - Maven 3.8+
-- MySQL（默认库名：`baizhanfarm`）
+- MySQL（默认库名：`farm`）
 - Redis（默认：`localhost:6379`）
 
 ### 后端本地启动
@@ -104,9 +104,6 @@ cd farm-ui
 npm install
 npm run dev
 ```
-
-默认开发端口为 `3000`。  
-前端请求默认走 `/api`，开发环境代理至 `http://localhost:8080`。
 
 ### 前端打包
 
