@@ -1,7 +1,6 @@
 # 智慧农业管理系统
 
-智慧农业管理系统，包含后端多模块服务与前端管理端。  
-后端基于 Spring Boot + Maven，多业务模块拆分；前端基于 Vue 3 + TypeScript + Vite。
+智慧农业管理系统是基于 Spring Boot + Maven 开发的多模块农业管理软件，后端进行多业务模块拆分，前端管理端使用 Vue 3 + TypeScript + Vite 进行开发。其中使用 HTTP 和 WebSocket 实现前后端数据交互与状态实时同步，保障农业管理业务的流畅运行
 
 ## 目前功能
 
