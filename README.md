@@ -62,7 +62,7 @@ farm
 
 ### 启动入口
 
-- 启动类：`com.itwork.farm_main.FarmMainApplication`
+- 启动类：`com.itbaizhan.farm_main.FarmMainApplication`
 - 配置文件：`farm_main/src/main/resources/application.yml`
 - 默认端口：`8080`
 
