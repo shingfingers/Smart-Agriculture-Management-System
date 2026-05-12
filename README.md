@@ -118,4 +118,5 @@ npm run build
 2. 启动后端（`farm_main`，端口 `8080`）。
 3. 启动前端（`farm-ui`，端口 `3000`）。
 4. 通过浏览器访问前端地址进行业务联调。
-
+登录注册界面：
+<img width="1904" height="935" alt="5d371bfa5f5b5cdc51a02b62d8940c8d" src="https://github.com/user-attachments/assets/81c619da-c822-4635-b837-adaf471968aa" />
