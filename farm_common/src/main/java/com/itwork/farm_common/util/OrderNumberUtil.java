@@ -1,4 +1,4 @@
-package com.itbaizhan.farm_common.util;
+package com.itwork.farm_common.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

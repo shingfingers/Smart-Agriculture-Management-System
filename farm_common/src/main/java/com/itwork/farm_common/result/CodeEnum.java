@@ -1,4 +1,4 @@
-package com.itbaizhan.farm_common.result;
+package com.itwork.farm_common.result;
 
 import lombok.Getter;
 
@@ -35,8 +35,9 @@ public enum CodeEnum {
     WAREHOUSING_ORDER_DETAIL_ISNULL(618, "该订单的订单详情为空"),
     WAREHOUSING_INSUFFICIENT(619, "库存不足"),
     PLANT_NAME_EXIST(620, "名称已存在"),
-    PLANT_CODE_EXIST(621, "编码已存在"),
-    PERSONAL_CURRENT_PASSWORD_ERROR(622, "当前密码错误"),;
+    PLANT_CODE_EXIST(624, "编码已存在"),
+    PERSONAL_CURRENT_PASSWORD_ERROR(622, "当前密码错误"),
+    PERSONAL_AVATAR_EMPTY(623, "头像文件不能为空");
 
 
     private final Integer code;

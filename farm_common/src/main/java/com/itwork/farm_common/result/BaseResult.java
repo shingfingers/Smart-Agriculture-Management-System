@@ -1,4 +1,4 @@
-package com.itbaizhan.farm_common.result;
+package com.itwork.farm_common.result;
 
 
 import lombok.AllArgsConstructor;

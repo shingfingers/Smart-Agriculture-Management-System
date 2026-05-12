@@ -1,7 +1,7 @@
-package com.itbaizhan.farm_common.exception;
+package com.itwork.farm_common.exception;
 
-import com.itbaizhan.farm_common.result.BaseResult;
-import com.itbaizhan.farm_common.result.CodeEnum;
+import com.itwork.farm_common.result.BaseResult;
+import com.itwork.farm_common.result.CodeEnum;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;

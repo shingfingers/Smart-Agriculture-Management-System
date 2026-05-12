@@ -1,4 +1,4 @@
-package com.itbaizhan.farm_common.util;
+package com.itwork.farm_common.util;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
