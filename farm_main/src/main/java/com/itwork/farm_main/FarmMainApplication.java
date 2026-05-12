@@ -1,4 +1,4 @@
-package com.itbaizhan.farm_main;
+package com.itwork.farm_main;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
@@ -13,15 +13,16 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 
 //启动这个模块的时候读取哪些包
 @SpringBootApplication(scanBasePackages = {
-        "com.itbaizhan.farm_common",
-        "com.itbaizhan.farm_system",
-        "com.itbaizhan.farm_warehousing",
-       "com.itbaizhan.farm_plant",
+        "com.itwork.farm_common",
+        "com.itwork.farm_main",
+        "com.itwork.farm_system",
+        "com.itwork.farm_warehousing",
+       "com.itwork.farm_plant",
 })
 @MapperScan(basePackages = {
-        "com.itbaizhan.farm_system.mapper",
-        "com.itbaizhan.farm_warehousing.mapper",
-        "com.itbaizhan.farm_plant.mapper",
+        "com.itwork.farm_system.mapper",
+        "com.itwork.farm_warehousing.mapper",
+        "com.itwork.farm_plant.mapper",
 })
 @EnableMethodSecurity(prePostEnabled = true)
 //启用aop

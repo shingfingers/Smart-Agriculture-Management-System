@@ -1,4 +1,4 @@
-package com.itbaizhan.farm_main;
+package com.itwork.farm_main;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
