@@ -70,7 +70,7 @@ farm
 
 - JDK 24
 - Maven 3.8+
-- MySQL（默认库名：`workfarm`）
+- MySQL（默认库名：`baizhanfarm`）
 - Redis（默认：`localhost:6379`）
 
 ### 后端本地启动
